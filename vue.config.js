@@ -1,7 +1,16 @@
+/*
+ * @name: 
+ * @test: test font
+ * @msg: 
+ * @param: 
+ * @return: 
+ */
 
 // 修改文件的别名
 
 module.exports = {
+  runtimeCompiler: true,
+  publicPath: './',  
   configureWebpack: {
     resolve: {
       alias: {

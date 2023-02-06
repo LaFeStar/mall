@@ -1,3 +1,10 @@
+/*
+ * @name: 
+ * @test: test font
+ * @msg: 
+ * @param: 
+ * @return: 
+ */
 import Vue from 'vue'
 import VueRouter from 'vue-router'
 
@@ -36,7 +43,7 @@ const routes = [
 
 const router = new VueRouter({
   routes,
-  mode: 'history'
+  mode: 'hash'
 
 })
 
